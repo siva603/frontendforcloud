@@ -1,0 +1,38 @@
+
+.nav-container{
+
+    /* background-color:blanchedalmond; */
+    height:6rem;
+   
+  }
+  .usernav {
+    display: flex;
+    float: right;
+    padding-right: 2rem;
+    align-items: center;
+   
+    justify-content: center;
+   
+  
+    & ul{
+      display: flex;
+      gap: 2rem;
+   
+  
+      & li{
+        
+        font-size: 2rem;
+        
+      }
+    }
+  }
+  
+  .usernav ul li:hover{
+    border-color: rgb(7, 153, 244);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+  }
+
+  .usernav ul li img{
+    height:2rem;
+  }

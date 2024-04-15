@@ -1,0 +1,73 @@
+
+.contact-section .title{
+    margin-top: 2rem;
+}
+.contact-section .container{
+    padding: 3rem;
+}
+
+.contact-section .grid{
+    gap: 3rem;
+}
+
+.contact-section .contact-map iframe
+{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact-section .title .section-common--heading{
+    font-size: 5rem;
+}
+
+.contact-section .title .section-common--title{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+
+.contact-section .container .contact-div{
+
+    padding: 1rem;
+}
+
+.contact-section .contact-div .grid{
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section .container .contact-div label{
+
+   font-size: 3rem;
+}
+.contact-section .container .contact-div input{
+    padding: 0.5rem;
+   font-size: 2.5rem;
+}
+.contact-section .container .contact-div .message-div{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.contact-section .container .contact-div textarea{
+    padding: 0.5rem;
+   font-size: 3rem;
+   width: 70%;
+   height: 20rem;
+}
+
+.contact-section .contact-div .btn-submit button{
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-color: transparent;
+    background-color: transparent;
+}
+.contact-section .contact-div .btn-submit button:hover{
+    box-shadow: 0px 0px 10px 1px rgb(192, 21, 21);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

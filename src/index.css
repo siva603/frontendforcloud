@@ -1,13 +1,178 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/***** base rules *****/ 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+html{
+
+ /**?     
+
+    100% = 16px 
+
+       1px = 100 / 16 ------>  6.25%
+
+       10 px = 6.25
+ **/
+ 
+ font-size: 62.5%;
+   /**? 1rem = 10px  */
+
+ 
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+ font-family: "Poppins",sans-serif;
+}
+
+p,
+li,
+a,label{
+ font-family: "Urbanist", sans-serif;
+ font-size: 1.8rem;
+ letter-spacing: 0.1rem;
+ font-weight: 400; /***** this is regular weight *****/ 
+ color: var(--para-color);
+ line-height: 1.3;
+ 
+}
+
+a{
+ text-decoration: none;
+}
+
+li{
+ list-style: none;
+}
+
+input,text,textarea{
+ display: block;
+}
+
+/***** theme *****/
+
+:root{
+ --main-color: #0062ff;
+ --supporting-color: #ebf3fe;
+ --font-color: #424242;
+ /* --bg-color: #ffffff; */
+ --bg-color: #0005088b;
+ --heading-color: #000a19;
+ --hero-heading-color: #003b99;
+ --white-color: #ffffff;
+ --para-color: #504e4d;
+ --bnt-hover-bg-color: #003b99;
+ --main-hero--color: #003b99;
+ --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ --footer-bg-color: #040d12;
+}
+
+  
+
+/***** layout *****/ 
+
+
+.container{
+
+ max-width: 142rem;
+ height: auto;
+ margin: 0 auto;
+ padding: 1.6rem 1rem;
+
+}
+
+.grid {
+ display: grid;
+}
+
+.grid-two--cols {
+ grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three--cols {
+ grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four--cols {
+ grid-template-columns: repeat(4, 1fr);
+}
+
+
+/***** End layout *****/
+
+
+
+
+/***** module or reusable code *****/ 
+
+
+.btn{
+ display: inline-block;
+ padding: 1.2rem 3.2rem;
+ color: var(--white-color);
+ background-color: var(--main-color);
+ border-radius: 1rem;
+ -webkit-border-radius: 1rem;
+ -moz-border-radius: 1rem;
+ -ms-border-radius: 1rem;
+ -o-border-radius: 1rem;
+}
+
+.btn-success{
+ display: inline-block;
+ padding: 1.2rem 3.2rem;
+ color:black;
+ font-size:2rem;
+ font-weight: 500;
+ background-color:rgb(12, 156, 12);
+ border-radius: 1rem;
+ -webkit-border-radius: 1rem;
+ -moz-border-radius: 1rem;
+ -ms-border-radius: 1rem;
+ -o-border-radius: 1rem;
+}
+
+input,
+label{
+ font-size: 2rem;
+}
+/***** End module or reusable code *****/
+
+
+
+/***** states *****/  
+
+
+.btn:hover{
+ background-color: var(--bnt-hover-bg-color);
+ cursor: pointer;
+ box-shadow: var(--btn-box-shadow);
+}
+.btn-success:hover{
+ background-color:rgb(6, 242, 6);
+ cursor: pointer;
+ box-shadow: var(--btn-box-shadow);
+}
+
+
+.section-hero--image img:hover{
+ scale:1.1;
+}
+
+.contact-img img:hover{
+ scale: 1.1;
+}
+/***** End states *****/
+
+
+

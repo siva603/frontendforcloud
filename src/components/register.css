@@ -1,0 +1,42 @@
+
+.back-register{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #e5dfe0, #f6b5cb, #fb88c4, #f357c9, #dd0cd9);
+}
+.register-center{
+    margin-top: 10rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.register-center fieldset{
+    width: 40%;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 5px ;
+  background-color:rgb(204, 183, 191);
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+
+    & input{
+        padding: 0.5rem;
+    }
+}
+
+.register-center .grid{
+    margin-top: 3rem;
+     
+    & input{
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+}
+
+.register-center .button{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}

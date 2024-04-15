@@ -1,0 +1,84 @@
+
+.questionform{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid:2rem;
+}
+
+.questionform .nestcontainer{
+    text-align: start;
+    display: inline-block;
+    border: 3px solid green;
+    background-color: hsla(120, 75%, 37%, 0.323);
+    font-size: 4rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.nestcontainer .subject{
+    display:flex;
+    gap: 2rem;
+}
+.nestcontainer .week{
+    margin-top: 1.5rem;
+    display:flex;
+    gap: 2rem;
+}
+.nestcontainer .questionType{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display:flex;
+    gap: 2rem;
+}
+
+.nestcontainer textarea{
+    width: 90%;
+    height: 20rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+
+.nestcontainer input,option,select{
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+
+.nestcontainer .choices{
+    display:flex;
+}
+
+.choice .block{
+display: block;
+}
+
+.choice .choice2{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.answer 
+{
+    margin-top: 1.5rem;
+    & input{
+        margin-top: 1rem;
+        display:inline-block;
+        margin-right: 1rem;
+    }
+}
+
+.nestcontainer .btn-success{
+    margin-top: 2rem;
+}

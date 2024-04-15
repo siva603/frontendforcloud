@@ -1,0 +1,78 @@
+.cloud .common-heading{
+    font-size: 5rem;
+    margin: 2rem 0rem;
+}
+
+
+.cloud .grid
+{
+    gap: 2rem; 
+}
+
+.cloud .grid .grid-items{
+    padding: 1rem; 
+    width: 35rem;
+    & iframe{
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: all 1s linear;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -ms-transition: all 1s linear;
+        -o-transition: all 1s linear;
+}
+
+    & .common-subject--name{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    & .common-week--name{
+        margin-top: 1rem;
+      
+        font-size: 2rem;
+
+    }
+    & .common-week--btn{
+        margin-top: 1rem;
+        background-color: transparent;
+        border-color: transparent;
+        color: var( --para-color);
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: 2px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+
+}
+
+.cloud .grid .grid-items .common-week--btn:hover{
+    box-shadow: 0px 0px 10px 10px  rgba(38, 2, 241, 0.2);
+}
+
+.cloud .grid .grid-items:hover{
+    box-shadow: 0px 0px 10px 10px  rgba(0,0,0,0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cloud .grid .grid-items iframe:hover{
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+}
+

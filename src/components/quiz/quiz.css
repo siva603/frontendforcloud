@@ -1,0 +1,95 @@
+.container .inner-container{
+    width:max-content;
+    margin: 15rem auto;
+    padding: 1rem;
+    border: 2px solid green;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container .inner-container h1{
+    font-size: 4rem;
+    text-align: center;
+
+}
+.container .inner-container hr{
+    width: 80%;
+    margin: auto;
+   margin-bottom: 2rem;
+}
+.container .inner-container h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.container .inner-container button{
+   font-size: 2.4rem;
+   margin-top: 2rem;
+   margin-right: rem;
+   color:  rgb(0, 255, 76);
+   border: 2px solid rgb(103, 250, 11);
+   font-weight: 700;
+   padding: 2px;
+   border-radius:3px ;
+   -webkit-border-radius:3px ;
+   -moz-border-radius:3px ;
+   -ms-border-radius:3px ;
+   -o-border-radius:3px ;
+}
+
+.container .inner-container div {
+    display: flex;
+    position: relative;
+    gap: 5rem;
+    
+}
+
+.container .inner-container .index h3{
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+.container .answer input{
+    margin-left: 2rem;
+}
+
+
+.container .inner-container .correct{
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.container .inner-container .final{
+    position: absolute;
+    z-index: 1;
+    width: 40rem;
+    padding-top: 15rem;
+    text-align: center;
+    left: 37%;
+    top:21%;
+    aspect-ratio: 1;
+    border: 2px solid bisque;
+    background-color: rgb(9, 176, 68);
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+
+.container .inner-container .restart{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}

@@ -1,0 +1,41 @@
+.back-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #918c8d, #b8899a, #d884b2, #f080d4, #fd7fff);}
+.login-center{
+    margin-top: 10rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.login-center fieldset{
+    width: 40%;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 5px ;
+  background-color: rgb(189, 180, 162);
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+
+    & input{
+        padding: 0.5rem;
+    }
+}
+
+.login-center .grid{
+    margin-top: 3rem;
+     
+    & input{
+        padding-left: 0rem;
+        margin-left: 0rem;
+        padding: 0.5rem;
+    }
+}
+
+.login-center .button{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}

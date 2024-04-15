@@ -1,0 +1,43 @@
+
+.admin .welcome {
+    display: flex;
+    float: right;
+    gap: 2rem;
+  
+}
+/* .admin .welcome .right{
+   
+} */
+.admin .welcome .left img{
+    margin-left: 3rem;
+    display: inline-block;
+    width: 2rem;
+    aspect-ratio: 1;
+}
+.admin .welcome .left h1{
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.admin .welcome .right{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.admin .welcome .button{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border: transparent;
+    background-color: transparent;
+
+}
+.admin .welcome .button:hover{
+    box-shadow: 0 0 1rem 0.2rem red;
+    background-color: bisque;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
