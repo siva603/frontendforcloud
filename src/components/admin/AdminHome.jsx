@@ -6,6 +6,7 @@ import AdminNav from './AdminNav';
 import {StudentData} from '../../App'
 import { useNavigate} from 'react-router';
 import {useParams} from 'react-router';
+import Environmental from '../layout/Environmental'
 
 function AdminHome() {
 
@@ -22,6 +23,7 @@ function AdminHome() {
       <AdminNav value="219B1A0530"/>
       <Main/>
       <Cloud/>
+      <Environmental/>
       <Footer/>
     </div>
   )
