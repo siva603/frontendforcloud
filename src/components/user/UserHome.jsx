@@ -5,6 +5,7 @@ import Cloud from '../layout/Cloud'
 import Footer from '../layout/Footer'
 import { useNavigate } from "react-router-dom";
 import {useParams} from 'react-router';
+import Environmental from '../layout/Environmental'
 
 function UserHome() {
 
@@ -19,6 +20,7 @@ function UserHome() {
       <UserNav/>
       <Main/>
       <Cloud/>
+      <Environmental/>
       <Footer/>
     </div>
   )
